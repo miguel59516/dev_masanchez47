@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background: #f8f8f8;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background: none;
+    border: 1px solid #ddd;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.divider {
+    width: 1px;
+    height: 20px;
+    background: #ccc;
+    margin: 0 10px;
+}
+
+/* 🔹 Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* 🔹 NAVBAR SUPERIOR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2B2B2B;
+    color: white;
+    padding: 15px 20px;
+}
+
+/* Contenedor del logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo en la esquina superior izquierda */
+.logo_pequeno {
+    height: 40px; /* Ajusta según necesidad */
+    margin-right: 15px;
+}
+
+/* Menú de navegación */
+/* Contenedor de la barra de navegación */
+/* 🔹 NAVBAR SUPERIOR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2B2B2B;
+    color: white;
+    padding: 15px 20px;
+}
+
+/* 🔹 Contenedor del logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* 🔹 Estilos para el logo */
+.logo_pequeno {
+    height: 40px;
+    margin-right: 20px;
+}
+
+/* 🔹 Menú de navegación alineado a la izquierda */
+/* 🔹 NAVBAR SUPERIOR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2B2B2B;
+    color: white;
+    padding: 15px 20px;
+}
+
+/* 🔹 Contenedor del logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* 🔹 Estilos para el logo */
+.logo_pequeno {
+    height: 40px;
+    margin-right: 20px;
+}
+
+/* 🔹 Menú de navegación alineado a la izquierda */
+.nav-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: -100px; /* Ajusta según necesidad */
+}
+
+.nav-menu li {
+    margin: 0 10px;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* 🔹 Línea divisoria entre los elementos del menú */
+.nav-divider {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+/* 🔹 Sección de acciones (We're Hiring + Login + Search + EN + Cart) */
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+/* 🔹 Estilos para "We're Hiring" */
+.hiring {
+    color: orange;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* 🔹 Línea divisoria entre elementos en la parte derecha */
+.divider {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+/* 🔹 Botón de inicio de sesión */
+.btn {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: darkorange;
+}
+
+/* 🔹 Ícono de búsqueda (Lupa) */
+.search-icon {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* 🔹 Selector de idioma */
+.language {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 🔹 Ícono del carrito */
+.cart-icon {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+/* Botón de inicio de sesión */
+.user-actions .btn {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.user-actions .btn:hover {
+    background: darkorange;
+}
+
+/* 🔹 SIDEBAR LATERAL */
+.sidebar {
+    width: 250px;
+    background: #20232A;
+    height: 100vh;
+    position: fixed;
+    padding: 20px;
+    color: white;
+    top: 0;
+    left: 0;
+    margin-top: 65px; /* Para no tapar el navbar */
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* 🔹 CONTENIDO PRINCIPAL */
+.content {
+    margin-left: 270px; /* Para que no se solape con el sidebar */
+    padding: 20px;
+}
+
+/* 🔹 SLIDER */
+.slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* 🔹 SECCIÓN DE BÚSQUEDA Y TRACKING */
+.search-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.search, .tracking {
+    background: #F5F5F5;
+    padding: 20px;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.search h3, .tracking h3 {
+    margin-bottom: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+/* 🔹 RESPONSIVE DESIGN */
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        width: 200px;
+    }
+    .content {
+        margin-left: 220px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        position: absolute;
+        left: -250px;
+        transition: left 0.3s ease-in-out;
+    }
+    .sidebar.open {
+        left: 0;
+    }
+    .content {
+        margin-left: 0;
+    }
+    .search-boxes {
+        flex-direction: column;
+    }
+    .search, .tracking {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
